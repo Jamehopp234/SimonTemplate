@@ -126,6 +126,33 @@
   <ItemGroup>
     <None Include="Resources\SimonSaysImage.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SUPER MARIO - game over - sound effect 2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu Music.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zelda logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-the-legend-of-zelda-ocarina-of-time-3d-link-nintendo-64-ganon-zelda-game-logo-nintendo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zeldalogopt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swordshield.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triforce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\link.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

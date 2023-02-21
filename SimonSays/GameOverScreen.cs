@@ -11,19 +11,26 @@ namespace SimonSays
 {
     public partial class GameOverScreen : UserControl
     {
+
         public GameOverScreen()
         {
             InitializeComponent();
+            
         }
 
         private void GameOverScreen_Load(object sender, EventArgs e)
         {
+            
             //TODO: show the length of the pattern
+            lengthLabel.Text = $"{Form1.patterns.Count-1}";
+            
+
         }
 
         private void closeButton_Click(object sender, EventArgs e)
         {
             //TODO: close this screen and open the MenuScreen
+            Application.Exit();
         }
     }
 }
