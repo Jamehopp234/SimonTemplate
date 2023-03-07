@@ -22,7 +22,8 @@ namespace SimonSays
         {
             
             //TODO: show the length of the pattern
-            lengthLabel.Text = $"{Form1.patterns.Count-1}";
+            lengthLabel.Text = $"{Form1.patterns.Count-1}";  
+               
             
 
         }
